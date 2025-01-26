@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-  background(0,10);
+  background(0);
   str = port.readUntil("\n"); //read until new line marker
   if(str){
   //receive multiple data streams
